@@ -21,7 +21,7 @@ public class CourseSchedule {
     }
     
     boolean dfs(Map<Integer, LinkedList<Integer>> map, int[] visited, int cur) {
-        if(visited[cur] == 0) visited[cur] = -1;
+        visited[cur] = -1;
         
         if (map.get(cur) != null) {
             for (int adj : map.get(cur)) {
