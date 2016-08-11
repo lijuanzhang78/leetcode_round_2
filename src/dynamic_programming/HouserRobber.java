@@ -16,4 +16,7 @@ public class HouserRobber {
     }
 	
 // https://discuss.leetcode.com/topic/12024/java-dp-solution-o-n-runtime-and-o-1-space-with-inline-comment
+// https://discuss.leetcode.com/topic/14504/9-lines-0ms-o-1-space-c-solution
+// 对于houserRobber II，需要分成两种情况：（1）rob 0 to n-2 （2）rob 1 to n-1
+
 }

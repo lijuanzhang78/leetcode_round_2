@@ -1,0 +1,10 @@
+一维DP
+每一步都需要记录多种状态，因为每种状态对后面的决策会有影响。
+House Robber I && II
+PaintFence
+Wiggle Subsequence： 除了DP，还可以用Greedy做。
+
+二维DP
+给一个矩阵，求多少种走法，最小最大和之类的。
+Unique Paths I && II
+Minimum Path Sum
