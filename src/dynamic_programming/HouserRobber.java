@@ -1,4 +1,4 @@
-package leetcode_round_2;
+package dynamic_programming;
 
 public class HouserRobber {
 	public int rob(int[] nums) {
