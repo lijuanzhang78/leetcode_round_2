@@ -46,5 +46,4 @@ public class Triangle_top_down_cache {
     	
     	int res = new Triangle_top_down_cache().minimumTotal(list);	
     }
-
 }

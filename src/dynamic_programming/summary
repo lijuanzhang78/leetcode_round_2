@@ -8,3 +8,8 @@ Wiggle Subsequence： 除了DP，还可以用Greedy做。
 给一个矩阵，求多少种走法，最小最大和之类的。
 Unique Paths I && II
 Minimum Path Sum
+Triangle： top down with memorization/top-down/bottom-up
+
+Math:
+Perfect Square:
+dp[i] = Math.min(dp[i], dp[i-j*j]+1)
