@@ -23,3 +23,7 @@ Math:
 Perfect Square: dp[i] = Math.min(dp[i], dp[i-j*j]+1)， BFS也能用。
 Coin Change: dp[i] = Integer.min(dp[i], dp[i-coin] + 1);
 Perfect Squre， Coin Change同类型。
+
+Palindrome:
+Longeset Palindromic Substring
+Palindrome Partitioning
