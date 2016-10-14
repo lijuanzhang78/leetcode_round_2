@@ -3,6 +3,10 @@ package Passed;
 import java.util.LinkedList;
 
 public class BinarySearchTreeIterator {
+	public class SentenceScreenFitting {
+
+	}
+
 	LinkedList<TreeNode> stack;
 
     public BSTIterator(TreeNode root) {
