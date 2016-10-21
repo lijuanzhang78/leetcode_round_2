@@ -18,4 +18,19 @@ public class MinimumSizeSubarraySum {
         }
         return len == Integer.MAX_VALUE? 0 : len;
     }
+	
+	public int minSubArrayLen_2(int s, int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int left = 0;
+        int sum = 0;
+        int len = Integer.MAX_VALUE;
+        for(int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+            while(sum >= s) {
+                len = Math.min(len,i - left + 1);
+                sum -= nums[left++];
+            }
+        }
+        return len == Integer.MAX_VALUE? 0 : len;
+    }	
 }
