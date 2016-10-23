@@ -16,6 +16,6 @@ public class FlipGameII {
                 }
             }
         }
-        return false;
+        return false; // 这一步很重要
     }
 }
