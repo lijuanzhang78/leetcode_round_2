@@ -3,6 +3,8 @@ package Backtracking;
 import java.util.ArrayList;
 import java.util.List;
 
+// 这道题挺有意思
+
 public class FactorCombination {
 	public List<List<Integer>> getFactors(int n) {
         List<List<Integer>> res = new ArrayList<>();
@@ -19,7 +21,7 @@ public class FactorCombination {
         if (start > target) return;
         
         for(int i = start; i <= target; i++) {
-            if (target == n && i == target) continue;
+            if (target == n && i == target) continue; // 防止n本身被加进去
             if (target%i == 0) {
                 list.add(i);
                 helper(res,target/i,list,i,n);
