@@ -1,3 +1,6 @@
+// 类似于post order
+// 先处理左右children 再处理parent
+
 package BinaryTree;
 class TreeNode {
     int val;
@@ -19,12 +22,12 @@ public class BinaryTreeLongestConsecutiveSequence {
         int right = helper(root.right);
         
         int curr = 1;
-        if (root.left == null || root.val == root.left.val - 1) curr = left + 1;
-        if (root.right == null || root.val == root.right.val - 1) curr = Math.max(curr,right+1);
+        if (root.left != null && root.val == root.left.val - 1) curr = left + 1;
+        if (root.right != null && root.val == root.right.val - 1) curr = Math.max(curr,right+1);
         res = Math.max(res,curr);
         return curr;
     }
-    
+	
     public static void main(String[] args) {
     	TreeNode root = new TreeNode(1);
     	TreeNode node3 = new TreeNode(3);
