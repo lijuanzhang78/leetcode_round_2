@@ -1,4 +1,4 @@
-package dynamic_programming;
+package DP;
 
 public class MinimumPathSum {
 	public int minPathSum(int[][] grid) {

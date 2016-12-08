@@ -1,4 +1,4 @@
-package dynamic_programming;
+package DP;
 
 public class Triangle_top_down {
 	public int minimumTotal(List<List<Integer>> triangle) {

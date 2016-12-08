@@ -1,4 +1,4 @@
-package dynamic_programming;
+package DP;
 
 public class UniquePaths {
 	public int uniquePaths(int m, int n) {
