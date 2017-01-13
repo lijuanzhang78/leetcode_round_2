@@ -13,6 +13,7 @@ public class ZerosAndOnes {
         for(int k = 1; k <= strs.length; k++) {
             int num0 = getnumzeros(strs[k-1]);
             int num1 = strs[k-1].length() - num0;
+            // it should start from 0!
             for(int i = 0; i <= m; i++) {
                 for(int j = 0; j <= n; j++) {
                     if (i >= num0 && j >= num1) {
